@@ -1,0 +1,19 @@
+{
+	"name": "websocket-chat",
+	"version": "1.0.0",
+	"description": "Chat em tempo real com WebSockets",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"dev": "node --watch server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"uuid": "^11.0.2",
+		"ws": "^8.18.0"
+	}
+}
